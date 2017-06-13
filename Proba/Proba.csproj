@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A0650410-3384-4340-BB5A-1B847D4800B2}</ProjectGuid>
+    <ProjectGuid>{06805105-288F-43B4-B2D3-A474C8313C63}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>chinczyk</RootNamespace>
-    <AssemblyName>chinczyk</AssemblyName>
+    <RootNamespace>Proba</RootNamespace>
+    <AssemblyName>Proba</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,18 +53,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Wybór gry.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Wybór gry.Designer.cs">
-      <DependentUpon>Wybór gry.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Form1.af-ZA.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,9 +62,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Wybór gry.resx">
-      <DependentUpon>Wybór gry.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

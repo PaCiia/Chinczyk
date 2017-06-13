@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace chinczyk
+namespace Próbny
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace chinczyk
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new wyborgry());
+            Application.Run(new Form1());
         }
     }
 }

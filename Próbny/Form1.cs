@@ -8,25 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace chinczyk
+namespace Próbny
 {
-    public partial class chinczyk : Form
-
+    public partial class Form1 : Form
     {
-        public chinczyk()
+        public Form1()
         {
             InitializeComponent();
-        }
-        
-
-        private void plansza_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void rzut_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

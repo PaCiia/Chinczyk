@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(chinczyk));
             this.plansza = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.rzut = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // plansza
@@ -39,18 +39,19 @@
             this.plansza.Name = "plansza";
             this.plansza.Paint += new System.Windows.Forms.PaintEventHandler(this.plansza_Paint);
             // 
-            // button1
+            // rzut
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.rzut.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.rzut, "rzut");
+            this.rzut.Name = "rzut";
+            this.rzut.UseVisualStyleBackColor = false;
+            this.rzut.Click += new System.EventHandler(this.rzut_Click);
             // 
             // chinczyk
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.rzut);
             this.Controls.Add(this.plansza);
             this.Name = "chinczyk";
             this.ResumeLayout(false);
@@ -60,7 +61,7 @@
         #endregion
 
         private System.Windows.Forms.Panel plansza;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button rzut;
     }
 }
 

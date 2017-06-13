@@ -6079,31 +6079,31 @@
   <data name="&gt;&gt;plansza.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="rzut.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 18pt, style=Bold</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="rzut.Location" type="System.Drawing.Point, System.Drawing">
     <value>382, 285</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="rzut.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 40</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="rzut.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="rzut.Text" xml:space="preserve">
     <value>Rzut</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;rzut.Name" xml:space="preserve">
+    <value>rzut</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;rzut.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;rzut.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;rzut.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
