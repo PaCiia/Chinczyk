@@ -16,7 +16,7 @@ namespace chinczyk
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new wyborgry());
+            Application.Run(new chinczyk());
         }
     }
 }
