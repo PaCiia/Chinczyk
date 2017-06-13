@@ -41,6 +41,7 @@ namespace chinczyk
             zatwierdz.DialogResult = System.Windows.Forms.DialogResult.OK;
     
             Form wyborgry = new Form();//okno z pytaniem
+            wyborgry.Text = "Wybór gry";
             wyborgry.Size = new Size(300,250);
 
             wyborgry.Controls.Add(wyborgraczy);
@@ -55,10 +56,20 @@ namespace chinczyk
 
         private void plansza_Paint(object sender, PaintEventArgs e)
         {
-
+            
         }
 
         private void rzut_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kostka_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void znacznik_Paint(object sender, PaintEventArgs e)
         {
 
         }

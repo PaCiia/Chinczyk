@@ -6055,38 +6055,89 @@
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="plansza.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+    <value>Zoom</value>
   </data>
-  <data name="plansza.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 3</value>
+  <data name="kostka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1068, 447</value>
   </data>
-  <data name="plansza.Size" type="System.Drawing.Size, System.Drawing">
-    <value>364, 336</value>
+  <data name="kostka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="plansza.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="kostka.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;plansza.Name" xml:space="preserve">
-    <value>plansza</value>
+  <data name="&gt;&gt;kostka.Name" xml:space="preserve">
+    <value>kostka</value>
   </data>
-  <data name="&gt;&gt;plansza.Type" xml:space="preserve">
+  <data name="&gt;&gt;kostka.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;plansza.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;kostka.Parent" xml:space="preserve">
+    <value>plansza</value>
   </data>
-  <data name="&gt;&gt;plansza.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;kostka.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="znacznik.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1082, 66</value>
+  </data>
+  <data name="znacznik.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 96</value>
+  </data>
+  <data name="znacznik.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;znacznik.Name" xml:space="preserve">
+    <value>znacznik</value>
+  </data>
+  <data name="&gt;&gt;znacznik.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;znacznik.Parent" xml:space="preserve">
+    <value>plansza</value>
+  </data>
+  <data name="&gt;&gt;znacznik.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="kolejkagracza.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="kolejkagracza.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 18pt</value>
+  </data>
+  <data name="kolejkagracza.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1051, 22</value>
+  </data>
+  <data name="kolejkagracza.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 29</value>
+  </data>
+  <data name="kolejkagracza.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="kolejkagracza.Text" xml:space="preserve">
+    <value>Kolejka gracza</value>
+  </data>
+  <data name="&gt;&gt;kolejkagracza.Name" xml:space="preserve">
+    <value>kolejkagracza</value>
+  </data>
+  <data name="&gt;&gt;kolejkagracza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kolejkagracza.Parent" xml:space="preserve">
+    <value>plansza</value>
+  </data>
+  <data name="&gt;&gt;kolejkagracza.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="rzut.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 18pt, style=Bold</value>
+    <value>Tahoma, 27.75pt, style=Bold</value>
   </data>
   <data name="rzut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>382, 285</value>
+    <value>1068, 604</value>
   </data>
   <data name="rzut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 40</value>
+    <value>150, 60</value>
   </data>
   <data name="rzut.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -6101,9 +6152,30 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;rzut.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>plansza</value>
   </data>
   <data name="&gt;&gt;rzut.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="plansza.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 3</value>
+  </data>
+  <data name="plansza.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1286, 700</value>
+  </data>
+  <data name="plansza.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;plansza.Name" xml:space="preserve">
+    <value>plansza</value>
+  </data>
+  <data name="&gt;&gt;plansza.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plansza.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;plansza.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -6113,7 +6185,10 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>483, 337</value>
+    <value>1370, 706</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1364, 726</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Chińczyk</value>
