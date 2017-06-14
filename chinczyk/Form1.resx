@@ -147,60 +147,6 @@
   <data name="&gt;&gt;kostka.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="znacznik.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1123, 63</value>
-  </data>
-  <data name="znacznik.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 96</value>
-  </data>
-  <data name="znacznik.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;znacznik.Name" xml:space="preserve">
-    <value>znacznik</value>
-  </data>
-  <data name="&gt;&gt;znacznik.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;znacznik.Parent" xml:space="preserve">
-    <value>plansza</value>
-  </data>
-  <data name="&gt;&gt;znacznik.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="kolejkagracza.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="kolejkagracza.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 18pt</value>
-  </data>
-  <data name="kolejkagracza.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="kolejkagracza.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1077, 19</value>
-  </data>
-  <data name="kolejkagracza.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 29</value>
-  </data>
-  <data name="kolejkagracza.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="kolejkagracza.Text" xml:space="preserve">
-    <value>Kolejka gracza</value>
-  </data>
-  <data name="&gt;&gt;kolejkagracza.Name" xml:space="preserve">
-    <value>kolejkagracza</value>
-  </data>
-  <data name="&gt;&gt;kolejkagracza.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;kolejkagracza.Parent" xml:space="preserve">
-    <value>plansza</value>
-  </data>
-  <data name="&gt;&gt;kolejkagracza.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="rzut.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 27.75pt, style=Bold</value>
   </data>
@@ -229,7 +175,7 @@
     <value>plansza</value>
   </data>
   <data name="&gt;&gt;rzut.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="plansza.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 3</value>

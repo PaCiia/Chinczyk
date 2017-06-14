@@ -31,8 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(chinczyk));
             this.plansza = new System.Windows.Forms.Panel();
             this.kostka = new System.Windows.Forms.Panel();
-            this.znacznik = new System.Windows.Forms.Panel();
-            this.kolejkagracza = new System.Windows.Forms.Label();
             this.rzut = new System.Windows.Forms.Button();
             this.plansza.SuspendLayout();
             this.SuspendLayout();
@@ -42,8 +40,6 @@
             this.plansza.BackgroundImage = global::chinczyk.Properties.Resources.plansza_rowna;
             resources.ApplyResources(this.plansza, "plansza");
             this.plansza.Controls.Add(this.kostka);
-            this.plansza.Controls.Add(this.znacznik);
-            this.plansza.Controls.Add(this.kolejkagracza);
             this.plansza.Controls.Add(this.rzut);
             this.plansza.Name = "plansza";
             this.plansza.Paint += new System.Windows.Forms.PaintEventHandler(this.plansza_Paint);
@@ -55,18 +51,6 @@
             resources.ApplyResources(this.kostka, "kostka");
             this.kostka.Name = "kostka";
             this.kostka.Paint += new System.Windows.Forms.PaintEventHandler(this.kostka_Paint);
-            // 
-            // znacznik
-            // 
-            resources.ApplyResources(this.znacznik, "znacznik");
-            this.znacznik.Name = "znacznik";
-            this.znacznik.Paint += new System.Windows.Forms.PaintEventHandler(this.znacznik_Paint);
-            // 
-            // kolejkagracza
-            // 
-            resources.ApplyResources(this.kolejkagracza, "kolejkagracza");
-            this.kolejkagracza.Name = "kolejkagracza";
-            this.kolejkagracza.Click += new System.EventHandler(this.kolejkagracza_Click);
             // 
             // rzut
             // 
@@ -85,7 +69,6 @@
             this.Name = "chinczyk";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.plansza.ResumeLayout(false);
-            this.plansza.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -94,8 +77,6 @@
 
         private System.Windows.Forms.Panel plansza;
         private System.Windows.Forms.Button rzut;
-        private System.Windows.Forms.Panel znacznik;
-        private System.Windows.Forms.Label kolejkagracza;
         private System.Windows.Forms.Panel kostka;
     }
 }

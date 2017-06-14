@@ -14,6 +14,10 @@ namespace chinczyk
     public partial class chinczyk : Form
 
     {
+        Image[] diceImages;
+        int dice;
+        Random rand;
+
         private int iloscGraczy = 0;
         List<Gracz> gracze = new List<Gracz>();
         public List<Pionek> pionki = new List<Pionek>();
@@ -119,12 +123,23 @@ namespace chinczyk
 
         private void rzut_Click(object sender, EventArgs e)
         {
+            dice = rand.Next(1, 7);
 
+            kostka.BackgroundImage = diceImages[dice];
         }
 
         private void kostka_Paint(object sender, PaintEventArgs e)
         {
+            diceImages = new Image[7];
+            diceImages[0] = Properties.Resources.Dice_0_svg;
+            diceImages[1] = Properties.Resources.Dice_1;
+            diceImages[2] = Properties.Resources.Dice_2;
+            diceImages[3] = Properties.Resources.Dice_3;
+            diceImages[4] = Properties.Resources.Dice_4;
+            diceImages[5] = Properties.Resources.Dice_5;
+            diceImages[6] = Properties.Resources.Dice_6;
 
+            rand = new Random();
         }
 
         private void znacznik_Paint(object sender, PaintEventArgs e)
