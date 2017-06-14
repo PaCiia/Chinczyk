@@ -51,8 +51,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pionek.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wyliczenia.cs" />
     <EmbeddedResource Include="Form1.af-ZA.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -67,6 +69,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,6 +83,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plansza_rowna.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice-0.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice-6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -30,15 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(chinczyk));
             this.plansza = new System.Windows.Forms.Panel();
-            this.rzut = new System.Windows.Forms.Button();
-            this.kolejkagracza = new System.Windows.Forms.Label();
-            this.znacznik = new System.Windows.Forms.Panel();
             this.kostka = new System.Windows.Forms.Panel();
+            this.znacznik = new System.Windows.Forms.Panel();
+            this.kolejkagracza = new System.Windows.Forms.Label();
+            this.rzut = new System.Windows.Forms.Button();
             this.plansza.SuspendLayout();
             this.SuspendLayout();
             // 
             // plansza
             // 
+            this.plansza.BackgroundImage = global::chinczyk.Properties.Resources.plansza_rowna;
             resources.ApplyResources(this.plansza, "plansza");
             this.plansza.Controls.Add(this.kostka);
             this.plansza.Controls.Add(this.znacznik);
@@ -46,6 +47,26 @@
             this.plansza.Controls.Add(this.rzut);
             this.plansza.Name = "plansza";
             this.plansza.Paint += new System.Windows.Forms.PaintEventHandler(this.plansza_Paint);
+            // 
+            // kostka
+            // 
+            this.kostka.BackColor = System.Drawing.Color.White;
+            this.kostka.BackgroundImage = global::chinczyk.Properties.Resources.Dice_0_svg;
+            resources.ApplyResources(this.kostka, "kostka");
+            this.kostka.Name = "kostka";
+            this.kostka.Paint += new System.Windows.Forms.PaintEventHandler(this.kostka_Paint);
+            // 
+            // znacznik
+            // 
+            resources.ApplyResources(this.znacznik, "znacznik");
+            this.znacznik.Name = "znacznik";
+            this.znacznik.Paint += new System.Windows.Forms.PaintEventHandler(this.znacznik_Paint);
+            // 
+            // kolejkagracza
+            // 
+            resources.ApplyResources(this.kolejkagracza, "kolejkagracza");
+            this.kolejkagracza.Name = "kolejkagracza";
+            this.kolejkagracza.Click += new System.EventHandler(this.kolejkagracza_Click);
             // 
             // rzut
             // 
@@ -55,29 +76,12 @@
             this.rzut.UseVisualStyleBackColor = false;
             this.rzut.Click += new System.EventHandler(this.rzut_Click);
             // 
-            // kolejkagracza
-            // 
-            resources.ApplyResources(this.kolejkagracza, "kolejkagracza");
-            this.kolejkagracza.Name = "kolejkagracza";
-            // 
-            // znacznik
-            // 
-            resources.ApplyResources(this.znacznik, "znacznik");
-            this.znacznik.Name = "znacznik";
-            this.znacznik.Paint += new System.Windows.Forms.PaintEventHandler(this.znacznik_Paint);
-            // 
-            // kostka
-            // 
-            this.kostka.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.kostka, "kostka");
-            this.kostka.Name = "kostka";
-            this.kostka.Paint += new System.Windows.Forms.PaintEventHandler(this.kostka_Paint);
-            // 
             // chinczyk
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.plansza);
+            this.DoubleBuffered = true;
             this.Name = "chinczyk";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.plansza.ResumeLayout(false);
